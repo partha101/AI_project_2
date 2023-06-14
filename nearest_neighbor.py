@@ -33,7 +33,6 @@ def load_and_process_data(filename):
 """### The nearest neighbor function"""
 
 from sklearn.model_selection import LeaveOneOut
-from scipy.spatial import distance
 import numpy as np
 
 def nearest_neighbor(df, features):
